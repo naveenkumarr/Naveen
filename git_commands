@@ -1,0 +1,50 @@
+git --version
+git init >> converts directory to repository 
+git add ./file name >> add file to stating area.
+git commit -m "comment"
+
+git status >> information of files in sating area
+git config -- global user.name "name" >>
+git config -- global user.email "name" >>
+
+git branch >> display all branch
+
+git branch <name> >> to create branch
+
+git branch checkout <name> >> to enter into the branch
+
+git branch checkout master >> to enter into master branch
+
+git branch -d/-D <name> >> to delete a branch
+
+git checkout -b <name> >> create and check into that branch
+
+git remote add origin <<ssh link>>  >> to link local repository to remote location
+
+git clone <<ssh link>> >> to pull remote repository to local machine
+
+git pull origin master >> pull all the file updated in remote repository
+
+git push origin master >> push all files form local repository to remote repository
+
+advanced git command
+
+git stash -u
+
+git stash list
+
+git stash show
+
+git log
+
+git log --author="name of author"
+
+git log --before="date"
+
+git log --oneline
+git revert "output we got from previous command"
+
+git revert HEAD
+
+git rebase master
+

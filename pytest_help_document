@@ -1,0 +1,39 @@
+command to run pytest
+pytest
+pytest -v
+
+command to run specific file
+pytest <filename> -v
+
+command to run specific module in specific file
+pytest -v <filename>::<modulename>
+
+
+To execute the tests containing a string in its name we can use the following syntax −
+pytest -k <string> -v
+
+To run the marked tests, we can use the following syntax −
+@pytest.mark.<markername>
+pytest -m <markername> -v
+
+pytest fixtures
+@pytest.fixture
+
+conftest.py 
+put fixture funtion in confest.py so that it can be accessable to all files.
+
+@pytest.mark.parametrize
+
+@pytest.mark.xfail
+@pytest.mark.skip
+
+The syntax to stop the execution of test suite soon after n number of test fails is as follows −
+pytest --maxfail = <num>
+
+to execute test in parallel
+
+pytest -n 3
+
+
+test results in xml format
+pytest test_multiplication.py -v --junitxml="result.xml"
