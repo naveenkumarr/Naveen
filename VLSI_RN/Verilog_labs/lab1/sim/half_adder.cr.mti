@@ -1,0 +1,22 @@
+/home1/IITR_ASIC1/NVKumaR/VLSI_RN/Verilog_labs/lab1/rtl/half_adder.v {1 {vlog -work work -vopt -stats=none /home1/IITR_ASIC1/NVKumaR/VLSI_RN/Verilog_labs/lab1/rtl/half_adder.v
+QuestaSim-64 vlog 2022.1_2 Compiler 2022.04 Apr  2 2022
+-- Compiling module half_adder
+
+Top level modules:
+	half_adder
+
+} {} {}} /home1/IITR_ASIC1/NVKumaR/VLSI_RN/Verilog_labs/lab1/rtl/full_adder.v {1 {vlog -work work -vopt -stats=none /home1/IITR_ASIC1/NVKumaR/VLSI_RN/Verilog_labs/lab1/rtl/full_adder.v
+QuestaSim-64 vlog 2022.1_2 Compiler 2022.04 Apr  2 2022
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} /home1/IITR_ASIC1/NVKumaR/VLSI_RN/Verilog_labs/lab1/tb/full_adder_tb.v {1 {vlog -work work -vopt -stats=none /home1/IITR_ASIC1/NVKumaR/VLSI_RN/Verilog_labs/lab1/tb/full_adder_tb.v
+QuestaSim-64 vlog 2022.1_2 Compiler 2022.04 Apr  2 2022
+-- Compiling module full_adder_tb
+
+Top level modules:
+	full_adder_tb
+
+} {} {}}

@@ -1,0 +1,7 @@
+# vsim -vopt .ram_tb -c -do "run -all;exit" "+FIVE" 
+# Start time: 11:51:14 on Feb 23,2023
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 11:51:14 on Feb 23,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
